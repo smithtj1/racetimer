@@ -1,0 +1,18 @@
+<div class ="timerButtonGrp btn-group">
+	
+	{{#if started}}
+		<button type="button" class="timerButton btn btn-default btn-danger">
+		Stop
+		</button>
+	{{else}}
+		<button type="button" class="timerButton btn btn-default btn-success">
+		Start
+		</button>
+	{{/if}}
+
+</div>
+
+<span class="pull-right">
+{{formatTime timeInMillis}}
+</span>
+

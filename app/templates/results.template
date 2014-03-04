@@ -1,0 +1,18 @@
+<h1 class="well"><p class="text-center">Results</p></h1>
+<span class="pull-right"><a class="export-btn btn btn-default">Export</a></span>
+<table class="table table-striped table-hover" id="results-table">
+<thead>
+<tr><th>Place</th><th>Bib Number</th><th>Time</th></tr>
+</thead>
+
+<tbody>
+	{{#each runner}}
+		<tr ">
+		<td>{{place}}</td>
+		<td>{{number}}{{#unless number}}<input type="number" class="finisher-number" id="finisher-number-input-{{place}}"/>{{/unless}}</td>  
+		<td>{{formatTime time}}</td>
+		</tr>
+	{{/each}}
+</tbody>
+
+</table>
