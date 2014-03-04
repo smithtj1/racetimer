@@ -1,0 +1,14 @@
+
+/*
+*	todo, add media queries for button height...
+*/
+
+
+.timer-btn-row{
+	height: 65px;
+}
+
+
+.timer-btn, .btn-keypad, .btn-keypad-function{
+	height: inherit;
+}

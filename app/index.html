@@ -8,9 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Race Timer</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+
     <link rel="stylesheet" href="styles/main.css">
+    
+    <!--TODO: remove from dist index in build process-->
+    <link rel="stylesheet" href="styles/rt.css">
+    
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -18,19 +24,17 @@
   <body>
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Race Timer</a>
-        </div>
+        
+        <a class="navbar-brand" href="#">RT</a>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills pull-right">
             <li class="active"><a href="#">Home</a></li>
             <li ><a href="#results">Results</a></li>
             <li ><a href="#settings">Settings</a></li>
         </ul>
        
-
+        
 
       </div><!-- /.container-fluid -->
     </nav>
@@ -56,6 +60,7 @@
     	<script src="bower_components/underscore/underscore.js"></script>
         <script src="bower_components/backbone/backbone.js"></script>
         <script src="bower_components/FileSaver/FileSaver.js"></script>
+        <script src="bower_components/fastclick/lib/fastclick.js"></script>
 
     	<script src="scripts/main.js"></script>
 

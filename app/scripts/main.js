@@ -68,5 +68,8 @@ $(document).on("ready", function(){
 
 	//start the router
 	Backbone.history.start();
-})
+
+	//add fastclick
+	FastClick.attach(document.body);
+});
 
