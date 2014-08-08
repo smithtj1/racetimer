@@ -1,9 +1,2 @@
 CACHE MANIFEST
-#v0.1.67
-CACHE:
-/index.html
-/scripts/main.js
-/scripts/vendor/bootstrap.js
-/scripts/vendor/handlebars.js
-/scripts/vendor/modernizr.js
-/styles/main.css
+#v0.1.69
